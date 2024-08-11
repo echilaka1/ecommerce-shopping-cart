@@ -58,6 +58,13 @@ You app will open at http://localhost:3000
 └─ README.md
 ```
 
+## Playing locally
+
+Libraries used:
+
+> lucide-react - for icons
+> es-lint - for finding and fixing problems with javascript code
+
 ## Requirements covered
 
 Covered all requirements asides from the bonus features
