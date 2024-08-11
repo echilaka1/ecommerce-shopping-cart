@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Search } from "lucide-react";
-import { CartContext } from "../../components/CartContext";
+import { CartContext } from "../../context/CartContext";
 import { Cart } from "../../components/ShoppingCart";
 import { Product } from "../../components/Products";
 import { CartIcon } from "../../components/CartIcon";
