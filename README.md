@@ -67,12 +67,12 @@ You app will open at http://localhost:3000
 └─ README.md
 ```
 
-## Playing locally
-
-Libraries used:
+## Libraries used
 
 > lucide-react - for icons
+
 > es-lint - for finding and fixing problems with javascript code
+
 > jest and react-testing-library - for unit test
 
 ## Requirements covered
