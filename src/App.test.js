@@ -1,10 +1,16 @@
-import { render, screen } from "@testing-library/react";
+/* eslint-disable no-undef */
+import React from "react";
+import { render } from "@testing-library/react";
 import App from "./App";
 
+// eslint-disable-next-line react/display-name
+jest.mock("./pages/entry", () => () => (
+  <div>Mocked EcommerceProductCatalog</div>
+));
+
 // eslint-disable-next-line no-undef
-test("renders learn react link", () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+test("renders EcommerceProductCatalog wrapped in CartProvider", () => {
+  const { getByText } = render(<App />);
   // eslint-disable-next-line no-undef
-  expect(linkElement).toBeInTheDocument();
+  expect(getByText("Mocked EcommerceProductCatalog")).toBeInTheDocument();
 });

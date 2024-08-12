@@ -36,6 +36,15 @@ You app will open at http://localhost:3000
 ├─ public/
 │  ├─ index.html
 ├─ src/
+│  ├─ __test__/
+|  |  ├─apiUtils.test.js
+|  |  ├─CartContext.test.js
+|  |  ├─CartIcon.test.js
+|  |  ├─Categories.test.js
+|  |  ├─EcommerceProductCatalog.test.js
+|  |  ├─ProductDetails.test.js
+|  |  ├─Products.test.js
+|  |  ├─ShoppingCart.test.js
 │  ├─ assets/
 |  |  ├─css
 |  |  |  ├─ contains css
@@ -64,6 +73,7 @@ Libraries used:
 
 > lucide-react - for icons
 > es-lint - for finding and fixing problems with javascript code
+> jest and react-testing-library - for unit test
 
 ## Requirements covered
 
