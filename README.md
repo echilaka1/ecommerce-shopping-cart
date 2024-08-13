@@ -28,6 +28,12 @@ You app will open at http://localhost:3000
 
 > Note that the server may start on a different port if :3000 is in use.
 
+## Running unit test
+
+```bash
+'npm run test' to run unit test # you will be able to run unit test and see the various components that is covered
+```
+
 ## Directory structure
 
 ### Overview
@@ -74,6 +80,8 @@ You app will open at http://localhost:3000
 > es-lint - for finding and fixing problems with javascript code
 
 > jest and react-testing-library - for unit test
+
+> tailwindcss - for responsive design
 
 ## Requirements covered
 
